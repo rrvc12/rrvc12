@@ -1,0 +1,29 @@
+// Colores 
+$primary-color: #FF9155;
+$secondary-color: #ED717A;
+$tertiary-color: #BE6592;
+$quaternary-color: #816194;
+$quinary-color: #4A587D;
+$senary-color: #2F4858;
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./assets/fonts/Comfortaa.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./assets/fonts/Raleway.ttf') format('truetype');
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+
