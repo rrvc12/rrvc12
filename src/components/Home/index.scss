@@ -6,8 +6,8 @@
     height: 100%;
 
     .window{
-        position: absolute;
-        width: 550px;
+        position: relative;
+        width: 600px;
         height: 350px;
         background-color: #282A36;
         border-radius: 5px;
@@ -54,7 +54,54 @@
         color: white;
         font-family: Consolas;
         padding: 20px;
+
+        .linecode{
+            margin: 8px 0px 8px 0px;
+            
+        }
+
+        .statement{
+            color: #FF79C6;
+            font-weight: bold;
+        }
+
+        .variable{
+            color: #50FA7B;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .key{
+            color: #50FA7B;
+            font-style: italic;
+        }
+
+        .value{
+            color: #E6EF86;
+        }
+
+        .number{
+            color: #B18BEB;
+        }
     }
+
+    .container-button{
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .button-run{
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: gray;
+        color: black;
+        svg{
+            color: black;
+        }
+    }
+
+
 
     
 }
