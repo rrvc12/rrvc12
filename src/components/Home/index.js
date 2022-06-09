@@ -26,13 +26,13 @@ const Home  = () => {
                         <span className='code key'>abilities</span>
                         <span className="code">: &#91;</span>
                         <span className='code value'>'HTML', 'CSS', 'Javascript', 'React', 'NodeJS'</span>
-                        <span className="code">&#93;</span>
+                        <span className="code">&#93; &#44;</span>
                     </div>
                     <div className='linecode'>
                         <span className='code key'>languages</span>
                         <span className="code">: &#91;</span>
                         <span className='code value'>'Spanish', 'English'</span>
-                        <span className="code">&#93;</span>
+                        <span className="code">&#93; &#44;</span>
                     </div>
                     <div className='linecode'>
                         <span className='code key'>age</span>

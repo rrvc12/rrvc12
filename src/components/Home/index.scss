@@ -86,20 +86,28 @@
 
     .container-button{
         position: absolute;
-        bottom: 100px;
+        bottom: 80px;
     }
 
     .button-run{
-        border: 1px solid black;
+        font-weight: bold;
         padding: 10px;
         border-radius: 5px;
         cursor: pointer;
-        background-color: gray;
+        background-color: #008F7A;
         color: black;
+        user-select: none;
         svg{
             color: black;
         }
+
+        &:hover{
+            background-color: #269C83;
+            box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.57);
+        }
     }
+
+
 
 
 
