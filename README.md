@@ -4,11 +4,17 @@
 - 🔭 I’m currently working on **something with my heart** ❤️
 - 🌱 I’m currently learning **React** ⚛
 
+<h3 align="center"><strong>Languages and Technologies Skills:</strong></h3>
 
+<p align="center">
+<a href="https://skillicons.dev">
+<img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,sass,java,flutter,postgres,git" />
+</a>
+</p>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="center"><strong>Connect with me:</strong></h3>
 
-<p align="left">
+<p align="center">
 <a href="https://twitter.com/rrvc12" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rrvc12" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/raulruilova" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="raulruilova" height="30" width="40" /></a>
 </p>
