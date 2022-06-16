@@ -1,7 +1,7 @@
 import './index.scss';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faRocket, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faGear, faHome, faRocket, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
@@ -20,6 +20,10 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faUser} color="#bebebe"/>
                     About me
                 </NavLink>
+                {/* <NavLink exact='true' activeclassname="active" className="skills-link" to="/skills">
+                    <FontAwesomeIcon icon={faGear} color="#bebebe"/>
+                    Skills
+                </NavLink> */}
                 <NavLink exact='true' activeclassname="active" className= "projects-link" to="/projects">
                     <FontAwesomeIcon icon={faRocket} color="#bebebe"/>
                     Projects
