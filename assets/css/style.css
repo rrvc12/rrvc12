@@ -143,7 +143,13 @@ body {
     color: white;
     font-weight: bold;
     font-size: 17px;
+    cursor: pointer;
 }
+
+.button_cv:hover{
+    background-color: #624572;
+}
+
 
 .social_icons{
     display: flex;
@@ -152,6 +158,11 @@ body {
 .social_icons i{
     font-size: 26px;
     margin: 10px 4px;
+    cursor: pointer;
+}
+
+.social_icons i:hover{
+    color: #FF9155;
 }
 
 
@@ -180,12 +191,13 @@ body {
 
 .title_section{
     font-size: 40px;
-    color: black
+    color: #FEFEFE;
+    text-shadow: -1px 2px 2px #191C25;
 }
 
 .line li{
     display: inline-block;
-    background-color: black;
+    background-color: white;
     border-radius: 50px;
     height: 3px;
 }
@@ -278,7 +290,6 @@ body {
 }
 
 .wave{
-    background-color: white;
     display: flex;
 }
 
@@ -293,7 +304,7 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    background-color: white;
+    background-color: #4A587D;
 }
 
 .projects_cards{
@@ -310,7 +321,7 @@ body {
     background-color: #2F4858;
     border: 1px solid #2F4858;
     border-radius: 5px;
-    margin: 0px 15px;
+    margin: 5px 15px 0px 15px;
     position: relative;
     overflow: hidden;
 }
@@ -319,27 +330,78 @@ body {
     text-align: center;
 }
 
+.project_item p{
+    text-align: justify;
+    margin: 5px;
+}
+
+
 .project_item .project_additional{
     position: absolute;
     width: 100%;
     height: 200px;
     z-index: 2;
+    overflow: hidden;
     transition: height 0.4s;
+    background-color: #816194;
 }
 
 .project_item:hover .project_additional {
     height: 100%;
-    background-color: #816194;
   }
 
-.project_item .project_general{
+.project_additional .container_more_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
-    width: 300px;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    top: 200px;
+}
+
+.project_additional .section_links{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_additional .container_links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+    background-color: #2F4858;
+    border-radius: 15px;
+}
+
+.container_links i{
+    font-size: 27px;
+    cursor: pointer;
+}
+.container_links i:hover{
+    color: #FF9155;
 }
 
 
+.project_item .project_general{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    z-index: 1;
+    bottom: 0px;
+}
 
+.project_item .project_description{
+    margin-bottom: 40px;
+}
 
 .project_item .project_additional .project_image{
     width: 100%;
@@ -348,13 +410,54 @@ body {
     background-size: cover;
 }
 
-.project_general{
+/* CONTACTS */
+
+.container_contact{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #816194;
 }
 
-.project_description{
-    text-align: justify;
-    padding: 5px;
+.container_form{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
+form{
+    height: 300px;
+    width: 500px;
+    /*background-color: #2F4858;*/
+}
+
+.form_group input, textarea{
+    border: 1px solid #bebebe;
+    border-radius: 0px 5px 5px 0px;
+    width: 90%;
+    height: 40px;
+    padding: 0px 15px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;;
+}
+
+.form_group textarea{
+    height: 100px;
+}
+
+.icon_case{
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    width: 10%;
+    height: 40px;
+    background-color: #624572;
+    text-align: center;
+    line-height:40px;
+}
+
