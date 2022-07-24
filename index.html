@@ -14,7 +14,7 @@
     <script src="https://kit.fontawesome.com/b43a9cd11e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="header_area">
+    <section id="header" class="header_area">
         <div class="header_navbar">
                 <nav class="navbar">
                     <a class="navbar_logo" href="index.html">
@@ -23,16 +23,16 @@
                     <div class="menu">
                         <ul id="nav" class="menu_list">
                             <li class="menu_item">
-                                <a>Home</a>
+                                <a href="#header">Home</a>
                             </li>
                             <li class="menu_item">
-                                <a>Sobre mí</a>
+                                <a href="#about">Sobre mí</a>
                             </li>
                             <li class="menu_item">
-                                <a>Proyectos</a>
+                                <a href="#projects">Proyectos</a>
                             </li>
                             <li class="menu_item">
-                                <a>Contacto</a>
+                                <a href="#contact">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -41,9 +41,10 @@
         <div id="home" class="header_hero">
             <div class="container_header_hero">
                 <div class="header_image">
-                    <span class="title_message">
-                        Hola a todos, soy Raúl ✌️
-                    </span>
+                    <div class="title_message">
+                        <span>Hola a todos, soy Raúl </span>
+                        <img src="./assets/images/wave.png"/>
+                    </div>
                     <div class="image_profile">
                         <img class="background_shape" src="assets\images\shape.svg" alt="background"/> 
                         <img class="me_image" src="assets/images/raul.png"/>
@@ -66,7 +67,7 @@
 
     </section>
 
-    <section class="about_area">
+    <section id="about" class="about_area">
         <div class="container_about">
             <div class="about_text">
                 <span class="title_section">
@@ -96,16 +97,11 @@
                         </div>
                         <span class="title-skills">Habilidades blandas</span>
                         <div class="soft-skills">
-                            <i class="fa-solid fa-people-group"></i>
-                            <span>Trabajo en Equipo</span>
-                            <i class="fa-solid fa-lightbulb"></i>
-                            <span>Creatividad</span>
-                            <i class="fa-solid fa-brain"></i>
-                            <span>Resolución de problemas</span>
-                            <i class="fa-solid fa-puzzle-piece"></i>
-                            <span>Adaptabilidad</span>
-                            <i class="fa-solid fa-gavel"></i>
-                            <span>Trabajo ético</span>
+                            <span> <i class="fa-solid fa-people-group"></i>Trabajo en Equipo</span>
+                            <span><i class="fa-solid fa-lightbulb"></i>Creatividad</span>
+                            <span><i class="fa-solid fa-brain"></i>Resolución de problemas</span>
+                            <span><i class="fa-solid fa-puzzle-piece"></i>Adaptabilidad</span>
+                            <span><i class="fa-solid fa-gavel"></i>Trabajo ético</span>
                         </div>
                     </div>
                 </div>
@@ -119,7 +115,7 @@
         </div>
     </section>
     <img class="wave" src="/assets/images/wave_1.svg"/>
-    <section class="projects_area">
+    <section id="projects" class="projects_area">
         <div class="container_projects">
             <div class="projects_text">
                 <span class="title_section">
@@ -178,7 +174,7 @@
         
     </section>
     <img class="wave" src="/assets/images/wave_2.svg"/>
-    <section class="contact_area">
+    <section id="contact" class="contact_area">
         <div class="container_contact">
             <div class="contact_text">
                 <span class="title_section">
@@ -222,9 +218,12 @@
         
     </section>
 
-    <!-- <section class="footer">
-        Footer
-    </section> -->
+    <section class="footer">
+        <div class="container_footer">
+            <span>👨‍💻 Hecho por Raúl con el ❤️</span>
+        </div>
+        
+    </section>
 
     
     

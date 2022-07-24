@@ -9,8 +9,13 @@
     box-sizing: border-box; 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
+    color: inherit;
 }
 /* 
 div {
@@ -46,6 +51,7 @@ body {
 .navbar_logo{
     color: white;
     font-size: 40px;
+    font-family: Alata;
 }
 
 .menu_list{
@@ -96,10 +102,19 @@ body {
 }
 
 .title_message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_message span{
     font-family: Alata;
     font-size: 40px;
     color: white;
-    text-align: center;
+}
+
+.title_message img{
+    width: 100px;
 }
 
 .image_profile{
@@ -438,8 +453,7 @@ body {
     height: 40px;
     width: 600px;
     border-radius: 15px 15px 0px 0px;
-    background-color: #F6AA93;
-    color: black;
+    background-color: #624572;
     text-align: center;
     font-size: 15px;
     padding: 10px;
@@ -500,8 +514,19 @@ form{
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 17px;
-    background-color: #be6592;
+    background-color: #FF9155;
     cursor: pointer;
     text-transform: uppercase;
 }
 
+/* FOOTER */
+
+.container_footer{
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #be6592;
+    
+}
