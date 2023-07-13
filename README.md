@@ -2,7 +2,7 @@
 <h3 align="center">A Systems Engineer and Web Developer in progress.</h3>
 
 - 🔭 I’m currently working on **something with my heart** ❤️
-- 🌱 I’m currently learning **React** ⚛
+- 🌱 I’m currently learning **Flutter**💠
 
 <h3 align="center"><strong>Languages and Technologies Skills:</strong></h3>
 
