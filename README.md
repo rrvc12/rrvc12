@@ -1,14 +1,14 @@
 <h1 align="center">Hello world 👋, I'm Raúl</h1>
-<h3 align="center">A Systems Engineer and Web Developer in progress.</h3>
+<h3 align="center">A Software Developer</h3>
 
-- 🔭 I’m currently working on **something with my heart** ❤️
-- 🌱 I’m currently learning **Flutter**💠
+- 🔭 I’m currently working on **personal projects** 🚀
+- 🌱 I’m currently learning **Django**🐍
 
 <h3 align="center"><strong>Languages and Technologies Skills:</strong></h3>
 
 <p align="center">
 <a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,sass,java,python,postgres,git" />
+<img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,python,django,postgres,git" />
 </a>
 </p>
 
