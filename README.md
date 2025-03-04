@@ -1,12 +1,13 @@
 <h1>Hi 👋, I'm Raúl</h1>
 
 <h2>About me</h2>
-Backend developer from Ecuador, passionate about solving problems and creating robust systems. Constantly learning 🚀
+Backend developer from Ecuador, passionate about solving problems and creating robust systems. Constantly learning. 🚀
 
 <h2>Skills</h2>
 <div style="display: inline_block">
   <img align="center" alt="Javascript" height="30" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img align="center" alt="Python" height="30" src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img align="center" alt="HTML" height="30" src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img align="center" alt="CSS" height="30" src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" />
 </div>
 <div style="display: inline_block">
