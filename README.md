@@ -1,35 +1,29 @@
-<h1 align="center">Hello world 👋, I'm Raúl</h1>
-<h3 align="center">A Software Developer</h3>
+<h1>Hi 👋, I'm Raúl</h1>
 
-- 🔭 I’m currently working on **personal projects** 🚀
-- 🌱 I’m currently learning **Django**🐍
+<h2>About me</h2>
+Backend developer from Ecuador, passionate about solving problems and creating robust systems. Constantly learning 🚀
 
-<h3 align="center"><strong>Languages and Technologies Skills:</strong></h3>
+<h2>Skills</h2>
+<div style="display: inline_block">
+  <img align="center" alt="Javascript" height="30" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img align="center" alt="Python" height="30" src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img align="center" alt="CSS" height="30" src="https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white" />
+</div>
+<div style="display: inline_block">
+  <img align="center" alt="Odoo" height="30" src="https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white" />
+  <img align="center" alt="Django" height="30" src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img align="center" alt="React" height="30" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img align="center" alt="Bootstrap" height="30" src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img align="center" alt="TailwindCSS" height="30" src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img align="center" alt="PostgreSQL" height="30" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img align="center" alt="Git" height="30" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+</div>
 
-<p align="center">
-<a href="https://skillicons.dev">
-<img src="https://skillicons.dev/icons?i=js,html,css,react,nodejs,python,django,postgres,git" />
-</a>
-</p>
+<h2>Contact Me</h2>
 
-<h3 align="center"><strong>Connect with me:</strong></h3>
+ <div style="display: inline">
+  
+  <a href="https://www.linkedin.com/in/raulruilova/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href = "rruilova12@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" ></a>
 
-<p align="center">
-<a href="https://twitter.com/rrvc12" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rrvc12" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/raulruilova" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="raulruilova" height="30" width="40" /></a>
-</p>
-
-<!--
-**rrvc12/rrvc12** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+</div>
