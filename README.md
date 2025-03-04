@@ -24,6 +24,6 @@ Backend developer from Ecuador, passionate about solving problems and creating r
  <div style="display: inline">
   
   <a href="https://www.linkedin.com/in/raulruilova/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href = "rruilova12@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" ></a>
+  <a href = "mailto: rruilova12@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" ></a>
 
 </div>
